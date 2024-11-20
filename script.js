@@ -60,11 +60,13 @@ document.querySelector('.check').addEventListener('click', function () {
       // document.querySelector('.message').textContent =
       displayMessage(guess > secretNumber ? 'Too high!📈' : 'Too low!📉');
       score--;
+      document.querySelector('.guess').value = '';
       // document.querySelector('.score').textContent =
       displayScore(score);
     } else {
       // document.querySelector('.message').textContent =
       displayMessage('You lost the game 😥 try again');
+      document.querySelector('.guess').value = '';
       
     document.querySelector('.number').textContent = secretNumber;
       // document.querySelector('.score').textContent =
