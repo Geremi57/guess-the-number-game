@@ -17,7 +17,7 @@ const x = function () {
 };
 
 let secretNumber = Math.trunc(Math.random() * 20) + 1;
-let score = 20;
+let score = 10;
 let highScore = 0;
 
 const displayMessage = function (message) {
@@ -102,7 +102,7 @@ document.querySelector('.check').addEventListener('click', function () {
 
 document.querySelector('.again').addEventListener('click', function () {
   secretNumber = Math.trunc(Math.random() * 20) + 1;
-  score = 20;
+  score = 10;
   // document.querySelector('.score').textContent =
 
   displayScore(score);
