@@ -65,6 +65,8 @@ document.querySelector('.check').addEventListener('click', function () {
     } else {
       // document.querySelector('.message').textContent =
       displayMessage('You lost the game 😥 try again');
+      
+    document.querySelector('.number').textContent = secretNumber;
       // document.querySelector('.score').textContent =
       displayScore(0);
     }
