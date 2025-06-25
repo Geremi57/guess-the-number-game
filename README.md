@@ -1,5 +1,3 @@
-Collecting workspace information# Guess My Number!
-
 A simple interactive number guessing game built with HTML, CSS, and JavaScript.
 
 ## How to Play
